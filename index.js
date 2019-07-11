@@ -11,7 +11,7 @@ function nowServing (katzDeliLine) {
   else {
     var name = katzDeliLine[0];
     katzDeliLine.splice(0,1);
-    return 'Currently serving' + name +'.'
+    return 'Currently serving ' + name +'.'
   }
 
   function currentLine (newLine) {
