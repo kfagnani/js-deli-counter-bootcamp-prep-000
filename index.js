@@ -14,15 +14,15 @@ function nowServing (katzDeliLine) {
     return 'Currently serving ' + name +'.'
   }
 
-  function currentLine (line) {
+  function currentLine (newLine) {
     var line =[]
-    if (line.length === 0) {
+    if (newLine.length === 0) {
     return "The line is currently empty."  
     } else {
-      for (var i = 0; i < line.length; i++) {
+      for (var i = 0; i < newLine.length; i++) {
         line += (i + 1) + '.' + line [i] + ','
       }
-      line = line.slice (0, line.length - 2)
+      line = newLine.slice (0, line.length - 2)
       return 'The line is currently:' 
       + line
     }
