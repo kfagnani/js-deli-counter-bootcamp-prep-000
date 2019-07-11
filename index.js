@@ -5,4 +5,8 @@ function takeANumber (line,person) {
   return 'Welcome,' + person + '. You are number' + line.length + 'in line.'
 }
 
-function nowServing 
+function nowServing (katzDeliLine) {
+  if (katzDeliLine.length === 0) {
+    return ""
+  }
+}
