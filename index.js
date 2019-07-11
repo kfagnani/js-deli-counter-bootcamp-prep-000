@@ -13,4 +13,6 @@ function nowServing (katzDeliLine) {
     x.splice(0,1);
     return 'Currently serving' + name +'.'
   }
+
+  function currentLine
 }
